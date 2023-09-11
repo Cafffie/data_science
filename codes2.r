@@ -23,6 +23,7 @@ count_df <- count(df_bigrams, words, sort=T)
 #Select first 3 columns
 google_resturant_review[0:3]
 
+#Slicing
 #Select first 3 rows
 google_resturant_review[0:3,]
 iris[1:4]
@@ -32,7 +33,7 @@ iris[0:5, c("Sepal.Length","Species")]
 iris["Sepal.Length"]
 
 
-
+#Handling missing data
 colSums(is.na(germany))
 colSums(!is.na(germany))
 sum(is.na(germany3$Consumption))
